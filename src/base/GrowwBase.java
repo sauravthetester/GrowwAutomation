@@ -18,7 +18,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class GrowwBase {
 	public static String OSType = null;
-	public static String configFile = System.getProperty("user.dir")+"/src/config/config.properties";
+	public static String configFile = System.getProperty("user.dir")+"/src/config/myexample.properties";
 	public static Properties prop;
 	
 	public static WebDriver driver;
